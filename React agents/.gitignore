@@ -1,0 +1,85 @@
+# ── Virtual Environments ──────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Python Cache & Bytecode ───────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Environment Variables & Secrets ──────────────
+.env
+.env.local
+.env.*.local
+*.env
+
+# ── uv ───────────────────────────────────────────
+.uv/
+
+# ── Distribution & Packaging ─────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+wheels/
+sdist/
+
+# ── Testing ───────────────────────────────────────
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+
+# ── Jupyter Notebooks ─────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Type Checking ─────────────────────────────────
+.mypy_cache/
+.dmypy.json
+.pytype/
+.pyre/
+
+# ── Linting & Formatting ──────────────────────────
+.ruff_cache/
+
+# ── IDEs & Editors ────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── macOS ─────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Windows ───────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Logs & Databases ──────────────────────────────
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# ── ML & Data Science ────────────────────────────
+*.csv
+*.pkl
+*.pickle
+*.h5
+*.parquet
+models/
+data/raw/
+data/processed/
+
+# ── NLTK ──────────────────────────────────────────
+nltk_data/
